@@ -1,0 +1,6 @@
+.project-flexbox {
+    background-color: var(--main-blue);
+    background-image: linear-gradient(#6fb2ed, var(--main-blue));
+    width: 100%;
+    height: 100vh;
+}
