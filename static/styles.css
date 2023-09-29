@@ -13,10 +13,15 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: 4rem;
     color: white;
+    position: sticky;
+    top: 0;
 } 
 
-h3 {
-    display: flex;
-    justify-content: center;
+main {
+        background-color: var(--main-blue);
+        background-image: linear-gradient(#6fb2ed, var(--main-blue));
+        width: 100%;
+        height: 100vh;
 }
+
 
