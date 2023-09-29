@@ -17,6 +17,10 @@ header {
     top: 0;
 } 
 
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 main {
         background-color: var(--main-blue);
         background-image: linear-gradient(#6fb2ed, var(--main-blue));
@@ -24,4 +28,7 @@ main {
         height: 100vh;
 }
 
+p {
+    font-family: 'Montserrat', sans-serif;
+}
 
