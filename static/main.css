@@ -3,7 +3,7 @@
     padding: 10px;
     margin: 0 10px 0 10px;
     /* border: solid 2px black; */
-    /* box-shadow: 0 4x 8px 0 rgba(0, 0, 0, 0.2); */
+    /* box-shadow: 0 4x 8px 0 rgba(0, 0, 0, 0.2); *
     
     /* adding a little delay */
     transition: 0.4s;
@@ -30,14 +30,6 @@
 }
 
 .project-flexbox {
-    
-    /* display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center; */
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -48,14 +40,6 @@
     max-width: 1400px;
     margin: 0 auto;
     gap: 16px;
-}
-
-.project-flexbox .card {
-    /* padding: 10px;
-    margin: 0 10px 0 10px;
-    border: solid 2px black;
-    box-shadow: 0 4x 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.4s; */
 }
 
 .project-flexbox .card img {
