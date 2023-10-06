@@ -4,13 +4,13 @@
     margin: 0 10px 0 10px;
     
     /* add a little delay */
-    transition: 0.4s;
+    /* transition: 0.4s; */
 }
 
-.card .container .project-title {
+.card .content-container .project-title {
     /* create a line under the card */
     padding: 10px 0px;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: bold;
     /* add a pointer when the cursor is on each project */
     cursor: pointer;
@@ -26,12 +26,12 @@
 } */
 
 
-.container .project-explanation {
+.content-container .project-explanation {
     width: 350px;
     height: 100px;
 
     /* use a overflow to hide the explanation about each project */
-    height: 0px;
+    /* height: 0px; */
     overflow: hidden;
     transition: .5s;
 }
@@ -63,10 +63,11 @@
     max-width: 350px;
     height: 300px;
     border-radius: 5px;
+    /* make a proportionate photo size */
     object-fit: cover;
 }
 
-.project-flexbox .card .container .project-title::after {
+.project-flexbox .card .content-container .project-title::after {
     content: ' + ';
     
     position: absolute;

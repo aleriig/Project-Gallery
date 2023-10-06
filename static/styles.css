@@ -14,7 +14,7 @@ header {
     font-family: 'Montserrat', sans-serif;
     font-size: 4rem;
     color: white;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
 } 
 
@@ -33,14 +33,18 @@ main {
         padding: 20px 30px 20px 50px ;
     }
 
-    .card p {
-        max-width: 75vw;
+    .project-title {
+        font-size: 1rem;
+    }
+
+    .card .project-explanation {
+        max-width: 80vw;
     }
 }
 
 /* javascript styling link */
 
-.card .container.active .project-explanation {
+.card .content-container.active .project-explanation {
     height: 90px;
 }
 
