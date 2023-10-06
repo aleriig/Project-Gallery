@@ -2,26 +2,42 @@
 .card {
     padding: 10px;
     margin: 0 10px 0 10px;
-    /* border: solid 2px black; */
-    /* box-shadow: 0 4x 8px 0 rgba(0, 0, 0, 0.2); *
     
-    /* adding a little delay */
+    /* add a little delay */
     transition: 0.4s;
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+.card .container .project-title {
+    /* create a line under the card */
+    padding: 10px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    /* add a pointer when the cursor is on each project */
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+
+    position: relative;
+     
+    
 }
 
+/* .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+} */
 
-.container p {
+
+.container .project-explanation {
     width: 350px;
-    height: 95px;
+    height: 100px;
+
+    /* use a overflow to hide the explanation about each project */
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
 }
 
 .header-project {
     max-width: 500px;
-    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +49,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex-basis: 15em;
+    /* flex-basis: 10em; */
     justify-content: space-between;
     align-items: center;
     padding: 20px 10px;
@@ -48,6 +64,13 @@
     height: 300px;
     border-radius: 5px;
     object-fit: cover;
+}
+
+.project-flexbox .card .container .project-title::after {
+    content: ' + ';
+    
+    position: absolute;
+    right: -5px;
 }
 
 
