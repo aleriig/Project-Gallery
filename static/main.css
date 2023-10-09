@@ -2,9 +2,6 @@
 .card {
     padding: 10px;
     margin: 0 10px 0 10px;
-    
-    /* add a little delay */
-    /* transition: 0.4s; */
 }
 
 .card .content-container .project-title {
@@ -21,17 +18,17 @@
     
 }
 
-/* .card:hover {
+.card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
-} */
+}
 
 
 .content-container .project-explanation {
     width: 350px;
     height: 100px;
-
+    position: relative;
     /* use a overflow to hide the explanation about each project */
-    /* height: 0px; */
+    height: 0px;
     overflow: hidden;
     transition: .5s;
 }
@@ -73,6 +70,7 @@
     position: absolute;
     right: -5px;
 }
+
 
 
 
