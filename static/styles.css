@@ -44,7 +44,21 @@ main {
 
 /* javascript styling link */
 
-.card .content-container.active .project-explanation {
-    height: 90px;
+/* give the desired answer's height when you click the title */
+.project-flexbox .card .content-container.active .project-explanation {
+    height: 95px;
+}
+
+/* change the project's size when you click and the desired amount of time to make the change  */
+.project-flexbox .card .content-container.active .project-title {
+    font-size: 20px;
+    transition: .5s;
+}
+
+/* add a '-' sign after clicking the title and change the project's size when you click and the desired amount of time to make the change */
+.project-flexbox .card .content-container.active .project-title::after {
+    content: '-';
+    font-size: 1rem;
+    transition: .5s;
 }
 
